@@ -1,0 +1,21 @@
+.container-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+
+.menu li {
+    padding: 25px;
+}
+
+.menu li:hover {
+    background-color: var(--light-brown);
+    transition: 0.2s;
+    color: var(--primary);
+    cursor: pointer;
+}

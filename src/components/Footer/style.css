@@ -1,0 +1,26 @@
+.container-footer{
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    p{
+        display: flex;
+        justify-content: center;
+        background-color: var(--light-brown);
+        color: var(--primary);
+        padding: 5px;
+        width: 100%;
+    }
+}
+
+.container-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px
+}

@@ -1,0 +1,21 @@
+.container-home{
+}
+
+.session-cards{
+    padding: 60px 5%;
+    h2{
+        margin-bottom: 30px;
+    }
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-div{
+    max-width: 30%;
+    min-width: 350px;
+}

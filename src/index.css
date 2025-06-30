@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #D9CCC5;
+    --secondary: #401D10;
+    --light-brown: #734A3C;
+    --gray: #D9D9D9;
+    --blue: #6E7B8B;
+    --green: #A8B5A2;
+    --white: #FFF;
+    --gray-light: #e5e1dc;
+    --shade: #efefef;
+}
+
+body{
+    color: #1C1C1E;
+    background-color: var(--primary);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+ul, nav{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
